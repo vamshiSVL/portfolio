@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='flex justify-around h-80'>
+    <div className='flex justify-around h-[700px]'>
       <div>
         <h3 className='font-extrabold text-2xl'>My Awesome</h3>
         <span className='block text-3xl font-bold text-[#EBBA18]'>Services.</span>
@@ -21,7 +21,7 @@ const Services = () => {
           </p>
           <button className='border-2 bg-white px-2 py-1 rounded-lg text-blue-400 hover:text-white hover:bg-[#EBBA18]'>LEARN MORE</button>
         </div>
-        <div className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute left-[-500px] bottom-[-140px] flex flex-col justify-center items-center gap-2 p-5'>
+        <div className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute left-[-500px] top-60 flex flex-col justify-center items-center gap-2 p-5'>
           <img src="img/heartemoji.png" alt="" className='w-24 h-24'/>
           <p className='font-bold'>Design</p>
           <p>
@@ -29,7 +29,7 @@ const Services = () => {
           </p>
           <button className='border-2 bg-white px-2 py-1 rounded-lg text-blue-400 hover:text-white hover:bg-[#EBBA18]'>LEARN MORE</button>
         </div>
-        <div className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute bottom-[-240px] left-[-200px] flex flex-col justify-center items-center gap-2 p-5'>
+        <div className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute top-96 left-[-200px] flex flex-col justify-center items-center gap-2 p-5'>
           <img src="img/humble.png" alt="" className='w-24 h-24'/>
           <p className='font-bold'>UI/UX</p>
           <p>

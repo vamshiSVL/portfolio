@@ -1,5 +1,6 @@
 import React from 'react'
 import Services from './Services'
+import Circle from './Circle'
 
 const Home = () => {
   return (
@@ -28,9 +29,11 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div>
-        <Services/>
-      </div>
+      
+      <Services/>
+
+      <Circle/>
+
     </div>
   )
 }
