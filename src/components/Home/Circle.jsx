@@ -2,7 +2,7 @@ import React from 'react'
 
 const Circle = () => {
   return (
-    <div className='h-[700px] flex items-center justify-center gap-20'>
+    <div className='h-[600px] flex items-center justify-center gap-20'>
       <div className='w-16'>
         <div className='rounded-full bg-gradient-to-b from-orange-400 to-yellow-300 p-5'>
             null

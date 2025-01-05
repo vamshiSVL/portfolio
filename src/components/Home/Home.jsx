@@ -1,11 +1,12 @@
 import React from 'react'
 import Services from './Services'
 import Circle from './Circle'
+import Projects from './Projects'
 
 const Home = ({visible}) => {
 
   return (
-    <div className='w-[87%] mx-[200px]'>
+    <div className='w-[81%] mx-[200px]'>
       <div className='h-[800px] flex justify-around items-center'>
         <div className={`${visible?'opacity-0':'opacity-100'} hover:opacity-100 space-y-4`}>
           <span className='block text-3xl font-bold'>Hy!</span>
@@ -34,6 +35,8 @@ const Home = ({visible}) => {
       <Services/>
 
       <Circle/>
+
+      <Projects/>
 
     </div>
   )
