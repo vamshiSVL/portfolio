@@ -2,11 +2,12 @@ import React from 'react'
 import Services from './Services'
 import Circle from './Circle'
 
-const Home = () => {
+const Home = ({visible}) => {
+
   return (
     <div className='w-[87%] mx-[200px]'>
       <div className='h-[800px] flex justify-around items-center'>
-        <div className='space-y-4'>
+        <div className={`${visible?'opacity-0':'opacity-100'} hover:opacity-100 space-y-4`}>
           <span className='block text-3xl font-bold'>Hy!</span>
           <span className='text-3xl font-bold'>I'm </span>
           <span className='text-3xl font-extrabold font-serif text-[#EBBA18]'><h1 className='inline'>Vamshi</h1></span>

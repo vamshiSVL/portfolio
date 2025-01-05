@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='flex justify-around h-[700px]'>
+    <div className='flex justify-around h-[700px] mx-[-30px]'>
       <div>
         <h3 className='font-extrabold text-2xl'>My Awesome</h3>
         <span className='block text-3xl font-bold text-[#EBBA18]'>Services.</span>

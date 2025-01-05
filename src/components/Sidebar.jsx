@@ -1,13 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const Sidebar = () => {
+const Sidebar = ({hand}) => {
+
   return (
     <div className='w-[200px] p-5 border-r-8 border-[#EBBA18] flex flex-col justify-around fixed bottom-1 top-2 bg-gray-500'>
       <div className='mt-[-55px] border-b-2 pb-6'>
         <motion.img animate={{rotateY:0}} initial={{rotateY:360}} transition={{type:"tween",delay:4,duration:0.5}} src="img/vs.jpeg" alt="men" className='rounded-full mx-[-8px] scale-90'/>
       </div>
       <div className='flex flex-col gap-3'>
+        <div>
+          <button onClick={hand}>visible</button>
+        </div>
         <div className='hover:text-[#EBBA18] cursor-pointer font-semibold'>
           <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Home</span>
         </div>
@@ -18,10 +22,10 @@ const Sidebar = () => {
           <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Projects</span>
         </div>
         <div className='hover:text-[#EBBA18] cursor-pointer font-semibold'>
-          <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Contacts</span>
+          <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Skills</span>
         </div>
         <div className='hover:text-[#EBBA18] cursor-pointer font-semibold'>
-          <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Testimonial</span>
+          <img src="icons/home.svg" alt="home" className='w-5 inline mb-2'/><span>Contacts</span>
         </div>
       </div>
       <div className='mx-[-15px]'>
