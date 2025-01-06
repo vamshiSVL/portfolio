@@ -10,7 +10,7 @@ const Services = () => {
            modi sunt rerum aliquid libero, soluta dicta fugit possimus tenetur mollitia iusto
            autem tempore, magni ex eaque!
         </p>
-        <button className='border-2 px-3 pb-1 mt-5 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors'>Download CV</button>
+        <button className='border-2 px-3 pb-1 mt-5 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors duration-700'>Download CV</button>
       </div>
       <div className='relative'>
         <div className='w-56 h-64 bg-slate-100 border-4 rounded-lg border-[#EBBA18] absolute left-[-150px] flex flex-col justify-center items-center gap-2 p-5'>

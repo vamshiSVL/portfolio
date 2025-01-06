@@ -14,7 +14,7 @@ const Home = ({visible}) => {
           <span className='text-3xl font-extrabold font-serif text-[#EBBA18]'><h1 className='inline'>Vamshi</h1></span>
           <span className='block text-3xl font-extrabold text-[#EBBA18]'>Web developer.</span>
           <p className='mt-2'>FULL STACK WEB DEVELOPER</p>
-          <button className='border-2 px-3 pb-1 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors'>Contact</button>
+          <button className='border-2 px-3 pb-1 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors duration-700'>Contact</button>
         </div>
         <div className='relative'>
           <img src="img/Vector1.png" alt="" className='w-96'/>
@@ -37,7 +37,6 @@ const Home = ({visible}) => {
       <Circle/>
 
       <Projects/>
-
     </div>
   )
 }
