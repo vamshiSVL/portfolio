@@ -1,0 +1,12 @@
+.i{
+    animation: anime ease 20s infinite;
+}
+
+@keyframes anime{
+   0%{
+    transform: translateX(-600px);
+   } 
+   100%{
+    transform: translateX(500px);
+   }
+}

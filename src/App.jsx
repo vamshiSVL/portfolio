@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className='m-2 h-[3500px]'>
+    <div className='m-2 h-[4500px]'>
       <Sidebar  hand={hand}/>
       <Home visible={visible}/>
     </div>

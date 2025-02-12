@@ -1,7 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { animate, motion } from 'framer-motion'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+
+    useEffect(() => {
+      Aos.init({
+        duration: 1500,
+        once: false, // Allow animations to trigger every time they come into view
+        easing: 'ease',
+      });
+    }, []);
 
     const [click,setclick] = useState(false)
     const [click2,setclick2] = useState(0)
@@ -18,9 +28,9 @@ const Projects = () => {
     }
 
   return (
-    <div className='h-[700px] flex justify-around items-center'>
+    <div className='h-[750px] flex justify-around items-center'>
       <div>
-        <p className='font-extrabold text-2xl'>Projects</p>
+        <p data-aos="fade-up" className='font-extrabold text-2xl'>Projects</p>
         <p className='block text-3xl font-bold text-[#EBBA18]'>I MADE</p>
         <p className='w-[450px] my-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dolorem cumque delectus excepturi eveniet mollitia quos enim ratione, ab qui?</p>
         <button className='border-2 px-3 pb-1 mt-5 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors duration-700'>Hire Me</button>
