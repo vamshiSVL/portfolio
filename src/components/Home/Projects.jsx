@@ -18,24 +18,22 @@ const Projects = () => {
 
     const change = ()=>{
         setclick(pre=>!pre)
-        console.log("hi")
     }
    
     const change2 = ()=>{
         setclick2(pre=>!pre)
         setclick(pre=>!pre)
-        console.log("hello")
     }
 
   return (
     <div className='h-[750px] flex justify-around items-center'>
-      <div>
+      <div data-aos='fade-right'>
         <p data-aos="fade-up" className='font-extrabold text-2xl'>Projects</p>
-        <p className='block text-3xl font-bold text-[#EBBA18]'>I MADE</p>
+        <p data-aos='fade-left' className='block text-3xl font-bold text-[#EBBA18]'>I MADE</p>
         <p className='w-[450px] my-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dolorem cumque delectus excepturi eveniet mollitia quos enim ratione, ab qui?</p>
         <button className='border-2 px-3 pb-1 mt-5 bg-[#EBBA18] text-white rounded-3xl shadow-xl shadow-[#EBBA18] border-[#EBBA18] hover:text-[#EBBA18] hover:bg-white transition-colors duration-700'>Hire Me</button>
       </div>
-      <motion.div className={`${click?'relative h-[650px] w-[400px]':'relative'}`} animate={click2?{rotate:360}:''} transition={{duration:2}}>
+      <motion.div className={`${click?'relative h-[650px] w-[400px]':'relative'}`} animate={click2?{rotate:360}:''} transition={{duration:2}} initial={{rotate:60}} whileInView={{rotate:0}}>
         <div className={`${click?"":'w-64 h-64 bg-slate-200 rounded-full'}`}></div>
         <div className={`${click?'w-56 h-64 bg-slate-100 border-4 rounded-lg border-[#EBBA18] absolute right-[-20px] duration-1000 top-14':'w-20 h-20 bg-white border-4 border-slate-200 absolute top-[-30px] right-[90px] rounded-full overflow-hidden hover:scale-125 duration-1000'}`}>
             <img src="img/musicapp.png" alt="" className='object-cover w-full h-full cursor-pointer'/>
