@@ -40,7 +40,7 @@ const Services = () => {
           </p>
           <button className='border-2 bg-white px-2 py-1 rounded-lg text-blue-400 hover:text-white hover:bg-[#EBBA18]'>LEARN MORE</button>
         </div>
-        <div data-aos='fade-up' className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute top-96 left-[-200px] flex flex-col justify-center items-center gap-2 p-5'>
+        <div data-aos='fade-upcls' className='w-56 h-64 border-4 bg-slate-100 rounded-lg border-[#EBBA18] absolute top-96 left-[-200px] flex flex-col justify-center items-center gap-2 p-5'>
           <img src="img/humble.png" alt="" className='w-24 h-24'/>
           <p className='font-bold'>UI/UX</p>
           <p>
