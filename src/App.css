@@ -10,3 +10,18 @@
     transform: translateX(500px);
    }
 }
+
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    animation: logo ease 2s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes logo{
+    100%{
+       display: none;
+    }
+}

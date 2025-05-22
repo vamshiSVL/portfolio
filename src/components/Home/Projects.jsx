@@ -53,7 +53,14 @@ const Projects = () => {
           <p className='object-cover text-center p-1 px-3' onClick={change2}>Click</p>
         </div>:
         <div className='w-20 h-20 border-2 border-slate-200 absolute right-[90px] top-24 rounded-full overflow-hidden bg-[#EBBA18] text-white cursor-pointer hover:bg-white hover:text-[#EBBA18] hover:border-[#EBBA18] duration-700'>
-          <p className='object-cover text-center p-1 px-3 mt-5' onClick={change}>Click</p>
+          <motion.p
+            onClick={change}
+            className='object-cover text-center p-1 px-3 mt-5'
+            animate={{ scale: [1, 1.2, 1] }}
+            transition={{ duration: 1, repeat: Infinity }}
+          >
+            Click
+          </motion.p>
         </div>
         }
       </motion.div>
