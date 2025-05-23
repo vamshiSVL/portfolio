@@ -1,16 +1,10 @@
-import React, { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React from 'react'
 
 const Description = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500, once: true, easing: 'ease' })
-  }, [])
-
   return (
     <div
-      data-aos="fade-up"
-      className="max-w-4xl mx-auto my-48 px-6 text-center"
+      className="max-w-4xl mx-auto my-60 px-6 text-center"
+      data-aos="zoom-in"
     >
       <h2 className="text-3xl font-bold mb-6 text-yellow-500">About My Portfolio</h2>
       <p className="text-lg text-gray-700 leading-relaxed">
