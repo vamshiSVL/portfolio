@@ -6,6 +6,7 @@ import Contacts from './Contacts'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { motion } from 'framer-motion'
+import Description from './Description'
 
 const Home = ({visible}) => {
 
@@ -53,6 +54,8 @@ const Home = ({visible}) => {
         <Projects/>
 
         <Contacts/>
+
+        <Description/>
 
       </motion.div>
     </>
