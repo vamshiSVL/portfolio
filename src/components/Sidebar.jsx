@@ -26,10 +26,7 @@ const Sidebar = ({ hand }) => {
           className="rounded-full mx-[-8px] scale-90"
         />
       </div>
-      <div className="flex flex-col gap-3">
-        <button onClick={hand} className="text-yellow-400 font-semibold hover:text-yellow-300">
-          Toggle Visibility
-        </button>
+      <div className="flex flex-col gap-6">
         {['Home', 'About', 'Projects', 'Skills', 'Contacts'].map((item) => (
           <div
             key={item}
@@ -40,7 +37,7 @@ const Sidebar = ({ hand }) => {
           </div>
         ))}
       </div>
-      <div className="mx-[-15px] flex gap-2">
+      <div className="mx-[-10px] flex gap-4">
         {['instagram.png', 'linkedin.png', 'github.png'].map((icon) => (
           <img
             key={icon}
