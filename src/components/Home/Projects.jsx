@@ -26,7 +26,7 @@ const Projects = () => {
     }
 
   return (
-    <div className='h-[750px] flex justify-around items-center'>
+    <div className='h-[650px] flex justify-around items-center'>
       <div data-aos='fade-right'>
         <p data-aos="fade-up" className='font-extrabold text-2xl'>Projects</p>
         <p data-aos='fade-left' className='block text-3xl font-bold text-[#EBBA18]'>I MADE</p>

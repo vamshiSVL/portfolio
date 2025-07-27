@@ -6,7 +6,6 @@ import Contacts from './Contacts'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { motion } from 'framer-motion'
-import Description from './Description'
 
 const Home = ({ visible }) => {
   useEffect(() => {
@@ -79,11 +78,6 @@ const Home = ({ visible }) => {
       {/* Contacts */}
       <section id="contacts" data-aos="fade-up">
         <Contacts />
-      </section>
-
-      {/* Description */}
-      <section id="description" data-aos="fade-up">
-        <Description />
       </section>
     </motion.div>
   )

@@ -10,13 +10,12 @@ const Sidebar = () => {
     { id: 'circle', label: 'Circle', icon: 'home.svg' },
     { id: 'projects', label: 'Projects', icon: 'home.svg' },
     { id: 'contacts', label: 'Contacts', icon: 'home.svg' },
-    { id: 'description', label: 'About', icon: 'home.svg' },
   ]
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
     if (element) {
-      const yOffset = -80
+      const yOffset = -150
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
       window.scrollTo({ top: y, behavior: 'smooth' })
     }
@@ -49,7 +48,7 @@ const handleScroll = () => {
 
   return (
     <motion.div
-      className="hidden md:flex w-[200px] p-5 border-r-8 border-yellow-400 flex-col justify-around fixed bottom-1 top-2 bg-blue-600"
+      className="hidden md:flex w-[200px] p-5 border-r-8 border-yellow-400 flex-col justify-around fixed bottom-1 top-2 bg-green-500"
     >
       {/* Profile Picture */}
       <div className="flex flex-col items-center border-b border-gray-700 pb-6">
